@@ -5,7 +5,7 @@ How to Play
 
     1.Run the quiz.py file using Python.
     2.The game will display a series of questions, each with multiple-choice answers.
-    4.Enter the word corresponding to your answer choice.
+    3.Enter the word corresponding to your answer choice.
     
 The game will provide feedback on whether your answer is correct or incorrect.
 Continue answering questions until you've completed the quiz.
