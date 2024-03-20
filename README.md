@@ -26,4 +26,4 @@ Continue answering questions until you've completed the quiz.
 2. Use this command:
    
   ```bash
-   python quiz.py
+   python3 quiz.py
