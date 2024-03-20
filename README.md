@@ -1,4 +1,4 @@
-Simple Python Quiz Game
+## Simple Python Quiz Game
 
 This is a simple Python quiz game created for educational purposes. The game presents multiple-choice questions to the player and evaluates their answers.
 How to Play
@@ -10,7 +10,7 @@ How to Play
 The game will provide feedback on whether your answer is correct or incorrect.
 Continue answering questions until you've completed the quiz.
 
-Files:
+## Files:
 
     quiz.py: Python script containing the quiz game logic.
     questions.txt: TXT file containing the questions.
