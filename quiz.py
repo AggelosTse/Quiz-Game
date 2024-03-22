@@ -4,7 +4,7 @@ from random import *
 from platform import platform
 
 
-def checkos():
+def clearscreen():
     if platform() == "Windows":
         os.system("cls")
     else:
@@ -51,18 +51,35 @@ def quizgame(corr):
         user_answer = str(input("\nYour answer: "))
         if user_answer.upper() == answers_array[randvalue][2]:
             corr += 1
+        else:
+            falsequestions.append(questions_array[randvalue])
+            falseanswers.append(user_answer)
+            correctanswers.append(answers_array[randvalue][2])
 
         questions_array.remove(questions_array[randvalue])
         answers_array.remove(answers_array[randvalue])
-        checkos()
+        clearscreen()
     return corr
 
-
+def printfalseanswers(res):
+    print("Questions you answered incorrectly: \n")
+    for i in range(0,len(falsequestions)):
+        print(str(i+1) + ". " + falsequestions[i])
+        print("You answered: " + str(falseanswers[i]).upper())
+        print("Correct Answer: " + correctanswers[i] + "\n")
+    print(f"Total correct answers: {res}")
+        
 questions_array = []
 answers_array = []
 
 openquestionsfile()
 openanswersfile()
 
+falsequestions = []
+falseanswers = []
+correctanswers = []
+
 correct = 0
 result = quizgame(correct)
+
+printfalseanswers(result)
