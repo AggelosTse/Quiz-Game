@@ -61,14 +61,16 @@ def quizgame(corr):
         clearscreen()
     return corr
 
+
 def printfalseanswers(res):
     print("Questions you answered incorrectly: \n")
-    for i in range(0,len(falsequestions)):
-        print(str(i+1) + ". " + falsequestions[i])
+    for i in range(0, len(falsequestions)):
+        print(str(i + 1) + ". " + falsequestions[i])
         print("You answered: " + str(falseanswers[i]).upper())
         print("Correct Answer: " + correctanswers[i] + "\n")
     print(f"Total correct answers: {res}")
-        
+
+
 questions_array = []
 answers_array = []
 
