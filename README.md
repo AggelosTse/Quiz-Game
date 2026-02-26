@@ -1,4 +1,4 @@
-## Simple Python Quiz Game
+## Quiz Game (Python)
 
 A lightweight, terminal-based quiz application built with Python. This project was designed for educational purposes to demonstrate basic data structures, user input handling, and conditional logic.
 
