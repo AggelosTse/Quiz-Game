@@ -1,14 +1,17 @@
 ## Simple Python Quiz Game
 
-This is a simple Python quiz game created for educational purposes. The game presents multiple-choice questions to the player and evaluates their answers.
-How to Play
+A lightweight, terminal-based quiz application built with Python. This project was designed for educational purposes to demonstrate basic data structures, user input handling, and conditional logic.
 
-    1.Run the quiz.py file using Python.
-    2.The game will display a series of questions, each with multiple-choice answers.
-    3.Enter the word corresponding to your answer choice.
-    
-The game will provide feedback on whether your answer is correct or incorrect.
-Continue answering questions until you've completed the quiz.
+---
+
+## Features
+
+* **Multiple Choice:** Engaging questions with a clear `A, B, C, D` selection system.
+* **Instant Scoring:** Real-time feedback on whether your answer was correct or incorrect.
+* **Final Results:** A summary at the end of the game showing your total score and percentage.
+* **Educational Logic:** Clean, readable code that's easy to modify and add new questions to.
+
+---
 
 ## Files:
 
@@ -16,6 +19,7 @@ Continue answering questions until you've completed the quiz.
     questions.txt: TXT file containing the questions.
     answers.csv: CSV file containing 4 possible answers for every question.
 
+---
 ## Installation
 
 1. Clone the repository:
